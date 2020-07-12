@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ExcludeTeleport
-  - Coin
-  - Coin1
-  - Coin2
-  - Coin3
-  - Coin4
+  tags: []
   layers:
   - Default
   - TransparentFX
