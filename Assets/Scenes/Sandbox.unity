@@ -15817,11 +15817,11 @@ MonoBehaviour:
   autoManageVRSettings: 1
   autoLoadSetup: 1
   setups:
+  - {fileID: 1243035853}
+  - {fileID: 1122313605}
+  - {fileID: 1304472947}
   - {fileID: 1178460573}
   - {fileID: 1500158668}
-  - {fileID: 1243035853}
-  - {fileID: 1304472947}
-  - {fileID: 1122313605}
   excludeTargetGroups: 1a0000001b000000
   persistOnLoad: 0
 --- !u!4 &587475395

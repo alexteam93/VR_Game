@@ -1,0 +1,22 @@
+# MTL written from C:\Users\rober\OneDrive\ZUO\Fase 1\100702\luz\100702.obj
+newmtl dorado
+Kd 0 0 0
+Ns 2048
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.9873 0.7716 0.1542
+newmtl nergo
+Kd 0.009494 0.009494 0.009494
+Ns 2048
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.0016 0.0016 0.0016
+newmtl transp
+Kd 0 0 0
+Ns 2896.31
+d 0.1
+illum 2
+Ka 0 0 0
+Ks 1 1 1
