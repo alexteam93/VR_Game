@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>C:\Program Files\Unity\Hub\Editor\2019.3.5f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -11,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1E43DEA5-8BB2-F6F7-8D24-C356BCB1702B}</ProjectGuid>
+    <ProjectGuid>{a5de431e-b28b-f7f6-8d24-c356bcb1702b}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,25 +45,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.5f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.3.5f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-     <Compile Include="Assets\Bokuemskiy\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
-     <Compile Include="Assets\Bokuemskiy\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
-     <Compile Include="Assets\Bokuemskiy\EffectExamples\Shared\Scripts\GunAim.cs" />
-     <Compile Include="Assets\Bokuemskiy\EffectExamples\Shared\Scripts\GunShoot.cs" />
-     <Compile Include="Assets\Bokuemskiy\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
-     <Compile Include="Assets\Bokuemskiy\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
-     <Compile Include="Assets\Bokuemskiy\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-     <Compile Include="Assets\Bokuemskiy\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Bokuemskiy\Effects\Shared\Scripts\DecalDestroyer.cs" />
+     <Compile Include="Assets\Bokuemskiy\Effects\Shared\Scripts\ExtinguishableFire.cs" />
+     <Compile Include="Assets\Bokuemskiy\Effects\Shared\Scripts\GunAim.cs" />
+     <Compile Include="Assets\Bokuemskiy\Effects\Shared\Scripts\GunShoot.cs" />
+     <Compile Include="Assets\Bokuemskiy\Effects\Shared\Scripts\ParticleCollision.cs" />
+     <Compile Include="Assets\Bokuemskiy\Effects\Shared\Scripts\ParticleExamples.cs" />
+     <Compile Include="Assets\Bokuemskiy\Effects\Shared\Scripts\ParticleMenu.cs" />
+     <Compile Include="Assets\Bokuemskiy\Effects\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Bokuemskiy\Scripts\ParticleDelete.cs" />
      <Compile Include="Assets\Bokuemskiy\Scripts\ParticleSpawner.cs" />
      <Compile Include="Assets\FileOpen.cs" />
+     <Compile Include="Assets\ScrewDelete.cs" />
      <Compile Include="Assets\Scripts\NoiseTrigger\NoiseTrigger.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
@@ -516,6 +507,7 @@
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\Bokuemskiy\ToolsAsset\README.txt" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
      <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
@@ -526,42 +518,12 @@
      <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
      <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\UIOverlay.shader" />
      <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
-     <None Include="Assets\Bokuemskiy\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+     <None Include="Assets\Bokuemskiy\Effects\Shared\Shaders\SurfaceShader_VC.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
      <None Include="Assets\Prefabs\test.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Ivan/Desktop/Unity/VR_Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <Reference Include="UnityEngine">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -739,6 +701,9 @@
  </Reference>
  <Reference Include="UnityEngine.XRModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -1095,8 +1060,54 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{4fb70231-db31-6642-547e-17876012e62c}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{0cd1fa7e-3a6d-f3fe-b462-9b3abd5e4648}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{2c4f657c-b1de-9721-58f3-b42246c79ec0}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{9c0a20cb-a54c-28ed-9c8f-c9d5f3fd8fc2}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{0308ea7a-5ffc-4069-34f2-68e4310cc58b}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{38d5b48a-b383-491b-7196-9a9be9691697}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{83c8c207-3160-ac9e-4e7c-0e0f731a4e9f}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{5eb886fa-6bc8-a6a5-f4a1-2d4935c658a4}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{d21febab-9002-88bf-74c8-71e96aa05395}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{6db029b9-383c-785c-05ed-acff80515f07}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{8701370c-d7c1-17d2-b287-c3acccedf1d0}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>

@@ -10,6 +10,7 @@ TagManager:
   - Coin2
   - Coin3
   - Coin4
+  - Screw
   layers:
   - Default
   - TransparentFX
