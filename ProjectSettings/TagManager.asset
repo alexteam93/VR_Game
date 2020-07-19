@@ -3,6 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags:
   - ExcludeTeleport
   - Coin
@@ -11,6 +12,9 @@ TagManager:
   - Coin3
   - Coin4
   - Screw
+=======
+  tags: []
+>>>>>>> e5a7833a79d63ae4f71ee912a143e994023c23a9
   layers:
   - Default
   - TransparentFX
