@@ -1,7 +1,7 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using VRTK;
 public class FileOpen : MonoBehaviour
 {
     public GameObject File;
@@ -36,6 +36,7 @@ public class FileOpen : MonoBehaviour
     void Update(){
         if (Coin && Coin1 && Coin2 && Coin3 && Coin4){
         File.GetComponent<Rigidbody>().useGravity=true;
+        File.GetComponent<VRTK_InteractableObject>().isGrabbable=true;
         }
     }
 }
