@@ -513,9 +513,11 @@
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\OfficeInteriors\Readme.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\Scenes\READ ME - About Scene.txt" />
      <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\OfficeInteriors\Src\scene3\Shaders\OR_AWFUSTransparent.shader" />
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\Foliage Shaders\Cross_Model_Shader.shader" />
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\Foliage Shaders\NMWind.cginc" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
@@ -523,6 +525,7 @@
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\Foliage Shaders\Tree_Bark_Metalic.shader" />
      <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\EasyRoads-HD_Add_ON\Shaders\Standard_Metalic_Cross_Road_Shader Parallax ArrayTrial.shader" />
+     <None Include="Assets\OfficeInteriors\Src\scene3\Shaders\OR_AWFUSOpaque.shader" />
      <None Include="Assets\NatureManufacture Assets - Trials Not Full Resolution\Park Photo Scanned Assets\Shaders\Standard_Metalic_UV_Free_Walls_and_Floors.shader" />
      <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\VRTK_TunnelEffect.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
