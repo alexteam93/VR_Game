@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/OfficeInteriors/Scenes/reception_room/reception_room.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
