@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Bokuemskiy/PBR Table/_Models/Table_Textures/Table_New_Connected_Low_Metal_Normal.png.meta
 guid: 726edc5202cbdf848b55565dfcdf8bfe
 timeCreated: 1519137326
+=======
+guid: c162a39894f5d524ab51c1c28404a6c5
+timeCreated: 1484669919
+>>>>>>> 739ae6ff6ced10292cdfb4245b03d454f9577a4b:Assets/Bokuemskiy/Effects/TutorialInfo/Icons/Help_Icon.png.meta
 licenseType: Store
 TextureImporter:
   fileIDToRecycleName: {}
